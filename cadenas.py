@@ -1,10 +1,13 @@
-def ejercicio1(num,nom):
-    for i in range(num):
-        print (nom)
-
+print ("Ejercicios de cadena\n")
+#Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en 
+# líneas distintas el nombre del usuario tantas veces como el número introducido.
+print("Ejercicio 1:")
 num=int(input("Ingrese cantidad a repetir:"))
 nom=str(input("Ingrese nombre a repetir :"))
-ejercicio1(num,nom)
+for i in range(num):
+    print (nom)
+
+
 
 print("ejercicio 2:")
 nombre=str(input("Ingrese nombre:"))
